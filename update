@@ -3,6 +3,6 @@
 apt update 
 apt upgrade -y
 apt autoremove -y
-if [ -f /var/run/reboot-required ];
-then echo '------Reboot required------'
+if [ -f /var/run/reboot-required ]; then
+  echo '------Reboot required------'
 fi
